@@ -1,0 +1,21 @@
+section.wordcamp h3 {
+  text-align: center; }
+section.wordcamp .columns,
+section.wordcamp ul.icons {
+  display: flex; }
+  section.wordcamp .columns li,
+  section.wordcamp .columns .col,
+  section.wordcamp ul.icons li,
+  section.wordcamp ul.icons .col {
+    flex: 1 0; }
+section.wordcamp .columns {
+  align-items: center; }
+section.wordcamp ul.icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+  section.wordcamp ul.icons .dashicons {
+    width: 88px;
+    height: 88px;
+    font-size: 88px; }
